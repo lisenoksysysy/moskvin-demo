@@ -1,0 +1,30 @@
+const categories = [
+  ['crepes', 'Блины'],
+  ['coffee', 'Кофе'],
+  ['signature', 'Авторские напитки'],
+  ['cold', 'Холодные напитки'],
+  ['tea', 'Чай и другие напитки'],
+  ['breakfast', 'Завтраки'],
+  ['food', 'Основные блюда и закуски'],
+];
+
+const dishes = [
+  { name: 'Блин с нутеллой', category: 'crepes', photo: 13, sizes: [[null, 280]] },
+  { name: 'Блин «Рафаэлло»', category: 'crepes', photo: 14, sizes: [[null, 360]] },
+  { name: 'Блин сыр-ветчина', category: 'crepes', photo: 17, sizes: [[null, 300]] },
+  { name: 'Блин с форелью и творожным сыром', category: 'crepes', photo: 18, sizes: [[null, 580]] },
+  { name: 'Капучино', category: 'coffee', photo: 3, sizes: [[350, 260], [450, 300]] },
+  { name: 'Американо', category: 'coffee', photo: 2, sizes: [[250, 200], [350, 220]] },
+  { name: 'Латте', category: 'coffee', photo: 4, sizes: [[350, 260], [450, 300]] },
+  { name: 'Эспрессо', category: 'coffee', photo: 1, sizes: [[null, 180]] },
+  { name: 'Цитрусовый капучино', category: 'signature', photo: 5, sizes: [[350, 330], [450, 370]] },
+  { name: 'Латте «Фисташка-малина»', category: 'signature', photo: 6, sizes: [[350, 330], [450, 370]] },
+  { name: 'Айс латте', category: 'cold', photo: 7, sizes: [[500, 300]] },
+  { name: 'Айс бамбл апельсин', category: 'cold', photo: 8, sizes: [[500, 340]] },
+  { name: 'Чай в чайнике', category: 'tea', photo: 9, sizes: [[1000, 360]] },
+  { name: 'Какао с маршмеллоу', category: 'tea', photo: 10, sizes: [[null, 280], [null, 320]] },
+  { name: 'Скрэмбл с ветчиной и фасолью', category: 'breakfast', photo: 11, sizes: [[null, 480]] },
+  { name: 'Сырники в сметанном соусе', category: 'breakfast', photo: 12, sizes: [[null, 480]] },
+  { name: 'Сэндвич с курицей', category: 'food', photo: 15, sizes: [[null, 380]] },
+  { name: 'Салат «Цезарь»', category: 'food', photo: 16, sizes: [[null, 460]] },
+];

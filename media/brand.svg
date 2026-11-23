@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <title>MOSKWIN Coffee Shop</title>
+  <defs><path id="arc" d="M49 97 Q128 53 207 97"/></defs>
+  <rect width="256" height="256" fill="#052d1c"/>
+  <path d="M43 70 Q128 22 213 70 Q214 74 218 76 V181 Q214 183 212 187 Q128 233 44 187 Q42 183 38 181 V76 Q42 74 43 70Z" fill="none" stroke="#c6a365" stroke-width="2"/>
+  <text fill="#c6a365" font-family="Georgia,serif" font-size="29" font-weight="bold" textLength="145"><textPath href="#arc" startOffset="50%" text-anchor="middle">MOSKWIN</textPath></text>
+  <g fill="#c6a365">
+    <path d="M127 114 C111 103 135 96 126 87 C145 98 123 105 127 114Z"/>
+    <path d="M99 119 Q128 114 155 119 Q155 147 140 155 Q128 158 116 155 Q101 150 99 119Z"/>
+    <path d="M153 124 C177 116 177 145 147 149 L149 144 C170 141 171 123 153 129Z"/>
+    <path d="M106 148 C59 154 122 173 164 155 Q170 151 151 149 Q175 158 124 159 Q91 158 110 153Z"/>
+  </g>
+  <text x="128" y="185" text-anchor="middle" fill="#c6a365" font-family="Georgia,serif" font-size="21" font-weight="bold" textLength="150">COFFEE SHOP</text>
+</svg>

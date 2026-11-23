@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#fff8ea">
+<meta name="description" content="MOSKWIN Coffee Shop в Дзержинске. Кофе, сладкие и сытные блины и завтраки весь день. Цифровое меню с ценами. Проспект Циолковского, 78/1, корпус 1.">
+<title>MOSKWIN Coffee Shop — меню кофейни в Дзержинске</title>
+<link rel="icon" href="media/brand.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+<script defer src="menu-data.js"></script>
+<script defer src="site.js"></script>
+</head>
+<body id="home">
+<a class="skip" href="#menu">К меню кофейни</a>
+<header class="header">
+  <div class="shell header-inner">
+    <a class="brand" href="#home" aria-label="MOSKWIN Coffee Shop, на главную"><img src="media/brand.svg" width="53" height="53" alt=""><span>MOSKWIN<small>COFFEE SHOP</small></span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navigation" aria-label="Открыть навигацию"><span></span><span></span></button>
+    <nav id="navigation" aria-label="Навигация по сайту"><a href="#home">Главная</a><a href="#menu">Меню</a><a href="#about">О нас</a><a href="#contacts">Контакты</a></nav>
+    <a class="button header-menu" href="#menu"><span>Смотреть </span>меню</a>
+  </div>
+</header>
+<main>
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-layout shell">
+      <div class="hero-copy">
+        <h1 id="hero-title">Кофе, блины <em>и время для себя.</em></h1>
+        <p>Кофейня MOSKWIN в Дзержинске. Сладкие и сытные блины, любимый кофе и завтраки весь день.</p>
+        <div class="actions"><a class="button" href="#menu">Смотреть меню</a><a class="button outline" href="#contacts">Найти нас</a></div>
+      </div>
+      <figure class="hero-media">
+        <img src="media/crepes-hero.webp" srcset="media/crepes-hero-small.webp 640w, media/crepes-hero.webp 1120w" sizes="(max-width: 819px) 100vw, 58vw" alt="Тонкие блины с нутеллой, блины с сыром и ветчиной и капучино" fetchpriority="high" width="1120" height="1000">
+        <figcaption>
+          <button type="button" class="hero-dish" data-featured-dish="3">Капучино</button>
+          <a class="hero-dish" href="#menu" data-menu-category="crepes">Блины</a>
+          <small>Иллюстрация</small>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section id="menu" class="menu-section" aria-labelledby="menu-title">
+    <div class="shell">
+      <div class="menu-heading"><h2 id="menu-title">Меню <em>MOSKWIN</em></h2><p>Сладкие и сытные блины, кофейная классика, авторские напитки и завтраки.</p></div>
+      <div id="categories" class="categories" role="group" aria-label="Категории меню"></div>
+      <p id="menu-status" class="sr-only" role="status"></p>
+      <div id="menu-grid" class="menu-grid"></div>
+      <noscript><p>Для просмотра карточек включите JavaScript или откройте <a href="https://vk.ru/moskwincoffeeshop">меню во ВКонтакте</a>.</p></noscript>
+      <div class="menu-note"><span>Фотографии иллюстративные.</span><a href="https://vk.ru/moskwincoffeeshop?z=photo-228588634_456239684%2Falbum-228588634_309262703" target="_blank" rel="noopener">Полное меню во ВКонтакте</a></div>
+    </div>
+  </section>
+
+  <section class="atmosphere shell" aria-labelledby="atmosphere-title">
+    <div class="atmosphere-copy"><h2 id="atmosphere-title">Здесь начинается <em>твоё настроение.</em></h2><p>Заглянуть за любимым кофе, встретиться с друзьями или просто провести время для себя. У каждого свой повод зайти в MOSKWIN.</p></div>
+    <figure class="gallery">
+      <img src="media/atmosphere.webp" alt="Кофейные зёрна крупным планом" width="720" height="500" loading="lazy">
+      <img src="media/item-17.webp" alt="Блины с сыром и ветчиной" width="360" height="260" loading="lazy">
+      <img src="media/item-3.webp" alt="Капучино с рисунком на пенке" width="360" height="260" loading="lazy">
+      <figcaption>Иллюстрации для демоверсии</figcaption>
+    </figure>
+  </section>
+
+  <section id="about" class="about" aria-labelledby="about-title">
+    <div class="shell about-inner">
+      <img src="media/brand.svg" width="235" height="235" loading="lazy" alt="Эмблема MOSKWIN Coffee Shop">
+      <div><h2 id="about-title">MOSKWIN <em>больше, чем кофе.</em></h2><p>Мы про вкус, атмосферу и живые истории. Про кофе, который задаёт настроение, и моменты, которыми хочется делиться.</p><blockquote>«Заходи на кофе. Оставайся за вайбом».</blockquote></div>
+    </div>
+  </section>
+
+  <section id="contacts" class="contacts shell" aria-labelledby="contact-title">
+    <div><h2 id="contact-title">Где нас <em>найти</em></h2><p>Дзержинск, проспект Циолковского,<br>78/1, корпус 1</p><a class="phone" href="tel:+79026850823">+7 (902) 685-08-23</a></div>
+    <div class="contact-actions">
+      <a class="button route" href="https://yandex.ru/maps/org/moskwin_coffee_shop/155938155309/?mode=routes&amp;rtext=~56.227523%2C43.398186" target="_blank" rel="noopener">Построить маршрут</a>
+      <a class="button outline" href="tel:+79026850823">Позвонить</a>
+      <a class="button outline" href="https://vk.ru/moskwincoffeeshop" target="_blank" rel="noopener">ВКонтакте</a>
+      <a class="button outline" href="https://t.me/moskwin_daily" target="_blank" rel="noopener">Telegram</a>
+    </div>
+  </section>
+</main>
+<footer class="footer"><div class="shell footer-inner">
+  <div><a class="brand" href="#home"><img src="media/brand.svg" width="53" height="53" alt=""><span>MOSKWIN<small>COFFEE SHOP</small></span></a><p>Больше, чем кофе.</p></div>
+  <nav aria-label="Разделы сайта"><a href="#home">Главная</a><a href="#menu">Меню</a><a href="#about">О нас</a><a href="#contacts">Контакты</a></nav>
+  <div class="footer-contact"><a href="tel:+79026850823">+7 (902) 685-08-23</a><p>Дзержинск, Циолковского, 78/1к1</p><div><a href="https://vk.ru/moskwincoffeeshop" target="_blank" rel="noopener">ВКонтакте</a><a href="https://t.me/moskwin_daily" target="_blank" rel="noopener">Telegram</a></div></div>
+</div></footer>
+
+<dialog id="dish" aria-labelledby="dish-title">
+  <form method="dialog"><button class="close" value="close" aria-label="Закрыть карточку" autofocus><span></span><span></span></button></form>
+  <img id="dish-photo" alt="">
+  <div class="dish-content"><h2 id="dish-title"></h2><ul id="dish-options"></ul><small>Фотография иллюстративная</small></div>
+</dialog>
+</body>
+</html>

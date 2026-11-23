@@ -1,0 +1,13 @@
+{
+  "name": "moskvin-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MOSKWIN Coffee Shop — сайт кофейни для GitHub Pages",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
